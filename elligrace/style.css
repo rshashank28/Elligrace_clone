@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    width: 100vw;
+    height: 140px;
+    border: 2px solid black;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    height: 50px;
+    background-color: rgb(198, 171, 18);
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 90px;
+    padding: 0 20px;
+}
+
+.nav-bottom .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+}
+.nav-bottom .logo img {
+ height: 30px;
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bottom ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-section {
+    background-image: url('images/hero.webp');
+    /* border: 2px solid black; */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: brown;
+}
+@media (min-width: 600px) {
+  .hero-section{
+    background-image: url('images/hero2.webp');
+  }
+}
+
+.best-seller{
+    
+    width: 100vw;
+    height: auto;
+    /* border: 2px solid black; */
+}
+.best-seller-name{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600 ;
+    border: 2px solid black;
+}
+.best-seller-product{
+    margin: 20px;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-container{
+    width: 350px;
+    margin: 10px 30px;
+    height: 450px;
+   
+}
+.footer-container{
+    height:auto;
+    background-color: black;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.footer-widge{
+    box-sizing: border-box;
+    height: 500px;
+    text-wrap: wrap;
+    width: 300px;
+    margin: 15px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-size: 27px;
+}
+.footer-widge ul{
+    list-style: none;
+   
+}
+.footer-widge ul li{
+    gap: 20px;
+    line-height: 50px;
+}
+.email{
+    box-sizing: border-box;
+    height: 500px;
+    width: 300px;
+    margin: 15px;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 600;
+}
+.payment{
+    box-sizing: border-box;
+    height: 500px;
+    margin: 15px;
+    padding: 30px;
+    color: white;
+    text-wrap:wrap;
+    
+}
+.pay-image{
+ display: flex;
+ object-fit: cover;
+}
+.footer-widgee{
+    box-sizing: border-box;
+    height: 500px;
+    margin: 15px;
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.shop-all{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-all button{
+    height: 85px;
+    background-color: rgb(198, 171, 18);
+    color: white;
+    font-size: 30px;
+    width: 400px;
+    border: none;
+    border-radius: 7px;
+}
+.shop-by-jwellery{
+     
+    width: 100vw;
+    height: auto;
+  
+}
+
+.shop-by-jwellery-name{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600 ;
+    
+}
+.shop-by-jwellery-product{
+    margin: 20px;
+    height: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social{
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.social i{
+    font-size: 50px;
+    margin: 10px;
+}
+.grid-container{
+    
+    display:grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    place-content: center;
+}
+.grid-item{
+    border: 2px solid black;
+
+  
+}
